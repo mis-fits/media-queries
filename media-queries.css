@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*cell phone styling*/
+@media screen and (min-width: 365px) and (max-width: 933px) {
+
+    .hidden-on-desktop {
+
+    }
+    h1 {
+        align-self: center;
+    }
+}
+
+/*desktop styling*/
+@media screen and (min-width: 934px) {
+
+    h1 {
+        align-content: flex-start;
+    }
+}
