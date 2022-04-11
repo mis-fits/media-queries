@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 2em;
+    margin: 1em;
     font-family: sans-serif;
 }
 
@@ -54,6 +54,33 @@ body {
     .header-img img {
         width:100%;
     }
+    .main {
+
+    }
+    .sub-section h2 {
+        font-style: italic;
+        font-size: 1.3em;
+    }
+    .sub-section p {
+        font-style: italic;
+        font-size: 1.1em;
+    }
+    footer {
+        display: flex;
+        align-content: baseline;
+        align-items: flex-end;
+
+    }
+    footer p{
+        margin-top:  2em;
+        flex-grow: 1;
+
+        /*align-self: flex-end;*/
+    }
+    footer img {
+        margin: .3em;
+    }
+
 }
 
 /*desktop styling*/
