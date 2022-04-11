@@ -30,8 +30,8 @@ function findPrimes() {
     var a = [];
 
 
-    while (a.length < 50) {
-        for (j = 2; j <= a.length; j++) {
+    // while (a.length < 50) {
+        for (j = 2; j <= 100; j++) {
         // if (j + 1 % 2 == 0)
         //     break;
             for (i = 1; i <= j; i++) {
@@ -48,6 +48,6 @@ function findPrimes() {
 
         count = 0
     }
-}}
+}
 findPrimes();
 
