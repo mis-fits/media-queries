@@ -1,16 +1,58 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 2em;
+    font-family: sans-serif;
 }
 
 /*cell phone styling*/
+
+
 @media screen and (min-width: 365px) and (max-width: 933px) {
 
     .hidden-on-desktop {
+        border: 3px solid gray;
+        background-color: #91c3c9;
+        align-self: center;
+        padding: 1em 0em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .hidden-on-desktop a{
+        text-decoration: none;
+        color: black;
 
     }
     h1 {
         align-self: center;
+        font-size: 3em;
+        margin: .2em 0em;
+    }
+    nav {
+        display:flex;
+    }
+    .nav-links {
+        list-style: none;
+        /*removes the indent from the ul*/
+        padding-left: 0em;
+        flex-direction: column;
+        width: 100%;
+        margin: 1em 0em;
+    }
+    .nav-links a {
+        background-color: lightgray;
+        color: blue;
+        padding: 1em 0em;
+        margin: .7em 0em;
+        display: flex;
+        justify-content: center;
+    }
+    .header-img {
+        display: flex;
+    }
+    .header-img img {
+        width:100%;
     }
 }
 
