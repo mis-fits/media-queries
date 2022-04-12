@@ -51,3 +51,17 @@ function findPrimes() {
 }
 findPrimes();
 
+var primeArray = [];
+var count = 0;
+var j = 2;
+
+do {
+    for (var i = 1; i <= j; i++) {
+        (j % i === 0) ? count++ : false;
+    }
+    (count === 2) ? primeArray.push(j) : false;
+    count = 0;
+    j += 1;
+} while (primeArray.length < 50);
+
+console.log(primeArray);
